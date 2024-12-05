@@ -1,0 +1,21 @@
+:root{
+
+    /*Colors */
+    --black--: #151515;
+    --green--: #4EE1A0;
+    --grey--: #242424;
+    --weak_grey--: #d9d9d9;
+    --white--: #ffffff;
+    --purple--: #9966CC;
+
+    /*Typography */
+    --font-grotesk-bold: "Grotesk-Bold";
+    --font-grotesk-medium: "Grostesk-Medium";
+    --font-grotesk-variable: "Grotesk-Variable";
+
+    /* Spaces */
+    --space-XL: 88px;
+    --space-L: 48px;
+    --space-M: 24px;
+
+}

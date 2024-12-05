@@ -1,0 +1,330 @@
+html {
+    background-color: var(--grey--);
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--white--);
+    background-color: var(--black--);
+}
+
+.CodigoIcon{
+    width: 50px;
+    height: 50px;
+}
+
+
+nav {
+    padding-left: 300px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p, a {
+        font-family: var(--font-grotesk-bold), sans-serif;
+        color: var(--white--);
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    div {
+        display: flex;
+        gap: var(--space-M);
+    }
+    :Hover{
+        color: var(--purple--);
+        cursor: pointer;
+
+    }
+    
+}
+
+
+.SoftSkils {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.SoftSkils-Sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 150px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.SoftSkils > .ContactMe {
+    text-align: center;
+    align-self: center; 
+    margin: 0; 
+    margin-top: 20px; 
+    font-size: 18px; 
+    text-decoration: none; 
+    color: var(--white--);
+    cursor: pointer;
+}
+
+
+.About {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px; 
+    align-items: flex-start;
+    margin-left: 50px;
+    padding-left: 300px;
+    padding-right: 250px;
+    overflow-x: hidden;
+}
+
+
+.Contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 300px;
+}
+
+.Contact img {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 600px;
+    align-items: center;
+
+    p, a {
+        font-family: var(--font-grotesk-bold);
+        font-size: 18px;
+        letter-spacing: 2px;
+
+        u {
+            text-decoration: underline;
+            text-decoration-color: var(--purple--);
+            text-underline-offset: 15px;
+        }
+    }
+}
+
+.ContactMe{
+    :hover {
+        color: var(--purple--);
+        cursor: pointer;
+    }
+}
+
+
+
+.Title {
+    font-family: var(--font-grotesk-bold), sans-serif;
+    font-size: var(--space-XL);
+    margin-bottom: 10px;
+
+    u {
+        text-decoration: underline;
+        text-decoration-color: var(--purple--);
+    }
+}
+
+.Resume {
+    font-family: var(--font-grotesk-variable), sans-serif;
+    font-size: 20px;
+    color: var(--weak_grey--);
+
+    u {
+        text-decoration: underline;
+        text-decoration-color: var(--purple--);
+    }
+}
+
+
+.Line {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    border-color: var(--weak_grey--);
+}
+
+.MyExperiencies{
+    font-family: var(--font-grotesk-bold);
+    font-size: 38px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--white--);
+}
+
+.RecentProjects{
+    font-family: var(--font-grotesk-bold);
+    font-size: 38px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: var(--white--);
+}
+
+.IconImage{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.Lines {
+    padding-left: 300px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+    text-align: center;
+
+    h1 {
+        font-family: var(--font-grotesk-variable);
+        font-size: var(--space-L);
+    }
+
+    p {
+        font-family: var(--font-grotesk-variable), sans-serif;
+        font-size: 18px;
+        color: var(--weak_grey--);
+    }
+}
+
+
+.Projects {
+    padding-left: 300px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    h6, h4 {
+        font-family: var(--font-grotesk-variable);
+        font-size: 18px;
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    p {
+        font-family: var(--font-grotesk-variable), sans-serif;
+        font-size: 18px;
+        color: var(--weak_grey--);
+        margin-bottom: 25px;
+        width: 341px;
+        word-wrap: break-word;
+    }
+}
+
+.ProjectIcon{
+    height: 215px;
+    width: 341px;
+}
+
+.Description {
+    font-family: var(--font-grotesk-variable), sans-serif;
+    font-size: 18px;
+    color: var(--weak_grey--);
+}
+
+.Contact3 {
+    font-family: var(--font-grotesk-bold);
+    font-size: var(--space-XL);
+    u{
+        text-decoration: underline;
+        text-decoration-color: var(--purple--);
+    }
+}
+
+.E-mail{
+    font-family: var(--font-grotesk-bold);
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: var(--white--);
+}
+
+.Final {
+    padding-left: 300px;
+    padding-right: 250px;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+
+    input {
+        height: 50px;
+        width: 500px;
+        background-color: var(--black--);
+        border: none;
+        color: var(--weak_grey--);
+        border-bottom: 2px solid var(--weak_grey--);
+
+    }
+
+    textarea {
+        height: 80px;
+        width: 500px;
+        background-color: var(--black--);
+        border: none;
+        color: var(--weak_grey--);
+        border-bottom: 3px;
+        border-bottom: 2px solid var(--weak_grey--);
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 18px;
+        /* Aumenta o tamanho da fonte do placeholder */
+        color: #888;
+        /* Cor do texto do placeholder */
+    }
+}
+
+.ButtonSubmit{
+    font-family: var(--font-grotesk-bold), sans-serif;
+        height: 50px;
+        width: 500px;
+        text-align: right;
+        border: none;
+        color: var(--white--);
+        background-color: var(--black--);
+        text-decoration: underline;
+        text-decoration-color: var(--purple--);
+        text-underline-offset: 15px;
+        letter-spacing: 2px;
+}
+
+.ButtonSubmit:hover {
+    color: var(--purple--);
+    cursor: pointer;
+}
+
+
+
+.FinalNav {
+    padding-left: 300px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-grotesk-bold), sans-serif;
+    font-size: var(--space-M);
+}
+
+.FinalNav2 {
+    display: flex;
+    gap: var(--space-M);
+
+}
+
+
+
+.Line2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    border-color: var(--weak_grey--);
+}

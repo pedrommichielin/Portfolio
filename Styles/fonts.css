@@ -1,0 +1,15 @@
+@font-face{
+    font-family: "Grotesk-Bold";
+    src: url(./assets/fonts/SpaceGrotesk-Bold.ttf)
+}
+
+@font-face{
+    font-family: "Grotesk-Medium";
+    src: url(./assets/fonts/SpaceGrotesk-Medium.ttf)
+}
+
+@font-face{
+    font-family: "Grotesk-Variable";
+    src: url(./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf)
+}
+
